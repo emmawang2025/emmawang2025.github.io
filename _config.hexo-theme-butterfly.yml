@@ -83,7 +83,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/hans-van-tol-P1syptb0tTw-unsplash.jpg
+  img: /images/hans-van-tol-P1syptb0tTw-unsplash.jpg
   effect: false
 
 # Disable all banner image
@@ -93,14 +93,14 @@ disable_top_img: false
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/pexels-francesco-ungaro-1525041.jpg
+default_top_img: /images/pexels-francesco-ungaro-1525041.jpg
 
 # The banner image of archive page
 archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: /img/pexels-francesco-ungaro-1525041.jpg
+tag_img: /images/pexels-francesco-ungaro-1525041.jpg
 
 # The banner image of tag page
 # format:
@@ -125,7 +125,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover: /img/pexels-photo-257558.jpeg
+  default_cover: /images/pexels-photo-257558.jpeg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -483,7 +483,7 @@ yandex_site_verification:
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height:
+index_top_img_height: 250px
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -494,7 +494,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://emmawang2025.github.io/img/pexels-photo-257558.jpeg)
+background:
 
 # Footer Background
 footer_bg: false
@@ -616,7 +616,7 @@ subtitle:
   sub:
 
 # Loading Animation (加載動畫)
-preloader: false
+preloader: true
 
 # aside (側邊欄)
 # --------------------------------------
@@ -802,7 +802,7 @@ snackbar:
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
 # Baidu Push (百度推送)
-baidu_push: false
+baidu_push: true
 
 # https://instant.page/
 # prefetch (預加載)
