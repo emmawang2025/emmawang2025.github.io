@@ -42,7 +42,7 @@ copy:
 #   icon: link || the description
 social:
   # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+   fas fa-envelope: emmawang2025@qq.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -83,7 +83,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:
+  img: /img/hans-van-tol-P1syptb0tTw-unsplash.jpg
   effect: false
 
 # Disable all banner image
@@ -631,7 +631,7 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/xxxxxx
