@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wealthy Life | 财富人生</title>
+  
+  <subtitle>从现在起，掌控自己的财富，掌控自己的人生</subtitle>
+  <link href="https://emmawang2025.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://emmawang2025.github.io/"/>
+  <updated>2021-01-24T08:22:23.338Z</updated>
+  <id>https://emmawang2025.github.io/</id>
+  
+  <author>
+    <name>Emma Wang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习使用图表</title>
+    <link href="https://emmawang2025.github.io/2021/01/22/%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8%E5%9B%BE%E8%A1%A8/"/>
+    <id>https://emmawang2025.github.io/2021/01/22/%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8%E5%9B%BE%E8%A1%A8/</id>
+    <published>2021-01-22T07:52:09.000Z</published>
+    <updated>2021-01-24T08:22:23.338Z</updated>
+    
+    <content type="html"><![CDATA[<div id="echarts6655" style="width: 90%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts6655'));        // 指定图表的配置项和数据        var option = {    tooltip: {        trigger: 'axis'    },    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [820, 932, 901, 934, 1290, 1330, 1320],        type: 'line'    }]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script><div id="echarts7956" style="width: 90%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts7956'));        // 指定图表的配置项和数据        var option = {tooltip: {},xAxis: {type: 'category',data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']},yAxis: {type: 'value'},series: [{data: [120, 200, 150, 80, 70, 110, 130],type: 'bar'}]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script><div id="echarts2311" style="width: 90%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts2311'));        // 指定图表的配置项和数据        var option = {tooltip: {trigger: 'item',formatter: '{a} <br/>{b}: {c} ({d}%)'},legend: {orient: 'vertical',left: 10,data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']},series: [{name: '访问来源',type: 'pie',radius: ['50%', '70%'],avoidLabelOverlap: false,label: {show: false,position: 'center'},emphasis: {label: {show: true,fontSize: '30',fontWeight: 'bold'}},labelLine: {show: false},data: [{value: 335, name: '直接访问'},{value: 310, name: '邮件营销'},{value: 234, name: '联盟广告'},{value: 135, name: '视频广告'},{value: 1548, name: '搜索引擎'}]}]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script><div id="echarts911" style="width: 90%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts911'));        // 指定图表的配置项和数据        var option = {tooltip: {},xAxis: {},yAxis: {},series: [{symbolSize: 20,data: [[10.0, 8.04],[8.0, 6.95],[13.0, 7.58],[9.0, 8.81],[11.0, 8.33],[14.0, 9.96],[6.0, 7.24],[4.0, 4.26],[12.0, 10.84],[7.0, 4.82],[5.0, 5.68]],type: 'scatter'}]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script><div id="echarts4057" style="width: 90%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts4057'));        // 指定图表的配置项和数据        var option = {tooltip: {},legend: {data: ['预算分配（Allocated Budget）', '实际开销（Actual Spending）']},radar: {name: {textStyle: {color: '#fff',backgroundColor: '#999',borderRadius: 3,padding: [3, 5]}},indicator: [{ name: '销售（sales）', max: 6500},{ name: '管理（Administration）', max: 16000},{ name: '信息技术（Information Techology）', max: 30000},{ name: '客服（Customer Support）', max: 38000},{ name: '研发（Development）', max: 52000},{ name: '市场（Marketing）', max: 25000}]},series: [{name: '预算 vs 开销（Budget vs spending）',type: 'radar',data: [{value: [4300, 10000, 28000, 35000, 50000, 19000],name: '预算分配（Allocated Budget）'},{value: [5000, 14000, 28000, 31000, 42000, 21000],name: '实际开销（Actual Spending）'}]}]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script><div id="echarts1132" style="width: 90%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts1132'));        // 指定图表的配置项和数据        var option = {tooltip: {},series: {type: 'sunburst',data: [{name: 'Grandpa',children: [{name: 'Uncle Leo',value: 15,children: [{name: 'Cousin Jack',value: 2}, {name: 'Cousin Mary',value: 5,children: [{name: 'Jackson',value: 2}]}, {name: 'Cousin Ben',value: 4}]}, {name: 'Father',value: 10,children: [{name: 'Me',value: 5}, {name: 'Brother Peter',value: 1}]}]}, {name: 'Nancy',children: [{name: 'Uncle Nike',children: [{name: 'Cousin Betty',value: 1}, {name: 'Cousin Jenny',value: 2}]}]}],radius: [0, '90%'],label: {rotate: 'radial'}}};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div id=&quot;echarts6655&quot; style=&quot;width: 90%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://cdn.bootcss.com/echarts/3.8.0/echarts.comm</summary>
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://emmawang2025.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="图表" scheme="https://emmawang2025.github.io/tags/%E5%9B%BE%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>what is wealth? what is wealthy-life?</title>
+    <link href="https://emmawang2025.github.io/2021/01/03/what-is-wealth-what-is-wealthy-life/"/>
+    <id>https://emmawang2025.github.io/2021/01/03/what-is-wealth-what-is-wealthy-life/</id>
+    <published>2021-01-03T02:49:59.000Z</published>
+    <updated>2021-01-24T08:22:23.270Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>今天开始运营Wealthy Life | 财富人生 博客。</strong></p><p>为了博客的门面，我就想在博客上添加一个财富相关的高大上的图片。于是去<a href="https://www.pexels.com/zh-cn">https://www.pexels.com/zh-cn</a> 网站上搜索财富。搜索结果的前10项，竟然都是比特币的图片。难道比特币已经称为财富的象征了吗？<br><img src="pexels-david-mcbee-730564.jpg" alt="比特币图片" width="500"/></p><p>先来说一下什么是比特币，MBA智库百科中将比特币定义为一种P2P形式的虚拟货币，不依靠特定的货币发行机构，基于密码学保证货币的所有权和流通的匿名性。</p><p>通常，货币是由国家发行的、以国家信用为担保的，比如人民币由中国人民银行发行，美元由美联储发行。人民币以中国政府对其价值提供担保。但是比特币的价值，是没有一个机构能够提供担保的，它的价值是通过美元或其他货币提现的，完全靠比特币信仰者的热血支撑。在很多国家，比特币是非法的。</p><p>我个人认为比特币是没有价值的，比特币信徒的热血是不可靠的。那么这就转到一个新的问题，什么是财富？</p><h1 id="什么是财富？"><a href="#什么是财富？" class="headerlink" title="什么是财富？"></a>什么是财富？</h1><p>最新版汉语《辞海》对财富的定义是：具有价值的东西。什么东西具有价值？普罗大众都会认为食物、衣服、汽车、房子都是有价值的东西，现代金融体系中股票、基金、期货等都是有价值的，这些也都是财富。还有一些无形的财富，比如享有某种服务的权力（购物卡、理发卡等）、支票。</p><h1 id="那么什么是wealth-life？"><a href="#那么什么是wealth-life？" class="headerlink" title="那么什么是wealth life？"></a>那么什么是wealth life？</h1><p>我理解wealthy life，是一种精神物质需求都被极大满足的生活。物质上，吃穿不愁，有能满足居住需求、教育需求、养老需求的住房，有能满足购物需求、医疗需求的交通环境（不一定需要私家车）。精神上，因为能满足家人的需求，家庭也比较和睦，而且能够有足够的时间跟进小孩的成长和老人的养老，最重要的是可以有时间和精力去实现个人追求、实现人生价值。</p><img src="pexels-victoria-borodinova-1620653.jpg" alt="什么是wealthy life？" width="500"/><p>我目前的状态，还远远不能达到上面wealthy life的标准。我现在是一个30岁的白领，即将升级为妈妈，上有爸妈、公婆，老公也很给力。我想要提升家庭的财富水平，争取早日过上wealthy life。</p><h1 id="为什么你需要关注本博客？"><a href="#为什么你需要关注本博客？" class="headerlink" title="为什么你需要关注本博客？"></a>为什么你需要关注本博客？</h1><p>这个博客将见证我、我们家、我孩子的财富水平的进步、升级。我将在这里记录自己遇到的问题、解决的方法、学习到的干货，也希望能够给大家带来帮助。</p><img src="pexels-cottonbro-3943723_副本.jpg" alt="开启财富人生" width="500"/><p>这个博客，适合未入社会的学生学习记账和预算，也适合刚入社会的年轻人、中年人学习理财，更适合父母一起学习如何教育孩子。欢迎大家和我一起进步、一起交流，争取早日过上wealth life。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;今天开始运营Wealthy Life | 财富人生 博客。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为了博客的门面，我就想在博客上添加一个财富相关的高大上的图片。于是去&lt;a href=&quot;https://www.pexels.com/zh-cn&quot;&gt;https://ww</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first-day</title>
+    <link href="https://emmawang2025.github.io/2021/01/02/first-day/"/>
+    <id>https://emmawang2025.github.io/2021/01/02/first-day/</id>
+    <published>2021-01-02T09:32:47.000Z</published>
+    <updated>2021-01-24T08:22:23.270Z</updated>
+    
+    <content type="html"><![CDATA[<p>test the world</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;test the world&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://emmawang2025.github.io/2021/01/01/hello-world/"/>
+    <id>https://emmawang2025.github.io/2021/01/01/hello-world/</id>
+    <published>2021-01-01T02:49:59.000Z</published>
+    <updated>2021-01-24T08:22:23.338Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
